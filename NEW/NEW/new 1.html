@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="newa.css"/>
+<title>
+clock</title>
+<script type="text/javascript">
+function printtime()
+{
+var now=new Date();
+var hours=now.getHours();
+var minutes=now.getMinutes();
+var seconds=now.getSeconds();
+minutes=setvalue(minutes);
+seconds=setvalue(seconds);
+
+document.getElementById('txt').innerHTML=hours+":"+minutes+":"+seconds;
+
+
+
+
+}
+function setvalue(a)
+{
+if(a<10)
+{
+a="0"+a
+
+};
+return a;
+}
+setInterval("printtime()",1000);
+
+</script>
+
+
+
+</head>
+<body onload="printtime()">
+
+<div id="txt">
+</div>
+
+
+</body>
+</html>

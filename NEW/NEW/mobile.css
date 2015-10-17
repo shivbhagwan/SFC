@@ -1,0 +1,36 @@
+.a{
+float:left;
+margin:10px;
+}
+.b{
+float:left;
+margin:10px;
+}
+.c{
+float:left;
+margin:10px;
+}
+.d{
+float:left;
+margin:10px;
+}
+#a{
+font-size:50px;
+
+}
+#b{
+font-size:20px;
+margin:0px 10px;
+float:left;
+
+}
+#c{
+padding:0px 10px 0px 100px;
+}
+#d{
+padding:0px 10px 0px 240px;
+}
+.box{
+background-color:blue;
+
+}

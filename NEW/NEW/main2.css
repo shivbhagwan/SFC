@@ -1,0 +1,34 @@
+td{
+padding:0px 300px 0px 0px;
+}
+.a{
+text-align:center;
+padding:0px;
+}
+table{
+margin:0px  100px;
+border:1px solid blue;
+}
+.grey{
+background-color:#097050;
+}
+.img{
+float:left;
+}
+.h1{
+float:right;
+}
+
+.middle{
+text-align:center;
+}
+.ram{
+font-size:40px;
+}
+a{
+color:black;
+text-decoration:none;
+}
+a:hover{
+color:red;
+}

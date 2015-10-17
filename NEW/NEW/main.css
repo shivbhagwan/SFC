@@ -1,0 +1,51 @@
+
+body{
+padding:0px;
+margin:0px;
+}
+div{
+background-color:#bbbbbb;
+height:500px;
+}
+.a{
+background-color:rgb(70, 70 ,200);
+text-align:center;
+font-size:50px;
+color:white;
+
+}
+section{
+background-color:yellow;
+margin:30px 60px;
+text-align:center;
+border-radius:10px;
+color:blue;
+font-size:30px;
+padding:5px 10px;
+}
+form{
+text-align:center;
+border-radius:5px;
+}
+.b,.c{
+padding:10px 0px;
+}
+.d{
+padding:10px 127px;
+background-color:rgb(70, 70 ,200);
+color:white;
+font-size:20px;
+}
+.e{
+padding:3px 50px;
+background-color:rgb(70, 70 ,200);
+margin:20px auto;
+color:white;
+}
+.f{
+text-decoration:none;
+}
+.footer{
+text-align:center;
+margin:50px auto;
+}

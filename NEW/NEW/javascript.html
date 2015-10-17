@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>
+
+javascript
+</title>
+<script>
+function printtime()
+{
+var now=new Date();
+var hours=now.getHours();
+var minutes=now.getMinutes();
+var seconds=now.getSeconds();
+//document.write(hours+":"+minutes+":"+seconds+"</br>");
+document.getElementById('txt').innerHTML = hours+":"+minutes+":"+seconds;
+
+}
+setInterval("printtime()",1000);
+
+</script>
+
+
+
+</head>
+<body onload="printtime()">
+
+<div id="txt"></div>
+
+
+
+
+
+
+</body>
+</html>
